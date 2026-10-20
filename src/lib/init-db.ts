@@ -1,4 +1,4 @@
-import pool from './db.ts';
+import pool from './db';
 
 export async function initializeDatabase() {
   const client = await pool.connect();
