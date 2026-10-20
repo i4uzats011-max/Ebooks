@@ -224,6 +224,13 @@ export interface PayrollRecord {
   employee_name?: string;
   emp_code?: string;
   designation?: string;
+  department?: string;
+  pan?: string;
+  uan?: string;
+  esic_number?: string;
+  bank_name?: string;
+  bank_account_no?: string;
+  bank_ifsc?: string;
   working_days: number;
   present_days: number;
   basic_earned: number;
